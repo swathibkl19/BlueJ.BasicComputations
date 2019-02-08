@@ -1,14 +1,17 @@
- 
-
-
+import java.util.*;
 public class NormalizeAngle {
 
     public Integer normalizeValueUsingModulo(Integer angle){
-        return 0;
+        System.out.print('\u000C');
+        int result = angle % 360;
+        
+        return result;
     }
 
     public Integer normalizeValueUsingFloorMod(Integer integer){
-        return 0;
+        System.out.print('\u000C');
+        int result = integer % 360;
+        return result;
     }
 
     public static void main(String[] args){
